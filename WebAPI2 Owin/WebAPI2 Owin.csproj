@@ -1,0 +1,18 @@
+﻿<Project Sdk="MSBuild.SDK.SystemWeb/4.0.79">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <MicrosoftNetCompilersToolset_Version>4.2.0</MicrosoftNetCompilersToolset_Version>
+    <GeneratedBindingRedirectsAction>Overwrite</GeneratedBindingRedirectsAction>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Copyright>Copyright © 2022</Copyright>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Properties\launchSettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Owin" Version="5.2.9" />
+    <PackageReference Include="Microsoft.Owin.Host.SystemWeb" Version="4.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
